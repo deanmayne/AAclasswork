@@ -1,0 +1,13 @@
+<h1><%= @cat.name %></h1>
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+    </tr>
+   <% [:age, :birth_date, :color, :sex].each do |ele|%>
+   <tr>
+    <td><%= ele %></td> 
+    <td><%= @cats.send(ele) %></td>
+   </tr>
+   <% end %>
+</table>
