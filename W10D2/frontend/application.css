@@ -1,0 +1,45 @@
+.flagged {
+    color: red;
+    background-color: lightgrey;
+    border-style: inset;
+    border-style: outset;
+}
+
+.explored{
+    color: green;
+    border-style: inset;
+
+}
+
+.hidden{
+    background-color: lightgrey;
+    border-style: inset;
+    border-style: outset;
+}
+
+.row{
+    width: 75px;
+    float: left;
+    margin: 0 auto;
+
+}
+
+
+.tile {
+    height: 20px;
+    width: 20px;
+    background: lightgray;
+    border-style: outset;
+    border-width: 2px;
+    line-height: 20px;
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.board {
+ 
+}
+
