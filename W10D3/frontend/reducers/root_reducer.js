@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import todoReducer from './todos_reducer';
-import {receiveTodos, receiveTodo} from '../actions/actions';
+
+import todosReducer from './todos_reducer';
+
+
 const rootReducer = combineReducers({
-    todos: todoReducer
+    todos: todosReducer
 });
 
 export default rootReducer;

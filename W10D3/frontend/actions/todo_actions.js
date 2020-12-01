@@ -4,7 +4,7 @@ export const RECEIVE_TODO = "RECEIVE_TODO";
 export const receiveTodos = (todos) => {
     return {
         type: RECEIVE_TODOS,
-        todos
+        todos,
     }
 }
 
@@ -13,6 +13,6 @@ export const receiveTodos = (todos) => {
 export const receiveTodo = (todo) => {
     return {
         type: RECEIVE_TODO,
-        todo
+        todo,
     }
 }
